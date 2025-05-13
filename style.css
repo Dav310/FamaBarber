@@ -1,0 +1,904 @@
+body {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+}
+.navbar {
+  background-color: #111;
+}
+.hero {
+  padding: 60px 0;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.hero h2 {
+  color: #f6c200;
+  font-weight: 700;
+}
+.hero p {
+  color: #bcbcbc;
+}
+.btn-yellow {
+  background-color: #f6c200;
+  color: #000;
+  font-weight: 600;
+}
+.btn-yellow:hover {
+  background-color: #d9a900;
+}
+.btn-outline-light {
+  border-color: #fff;
+  color: #fff;
+}
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+}
+.location-icon {
+  color: #f6c200;
+}
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero img {
+    margin-top: 30px;
+  }
+}
+
+body {
+  background-color: #212121;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: #f7b731;
+}
+
+.testimonial-box {
+  background-color: #333;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.service-box {
+  background-color: #333;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.star-rating {
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #f7b731;
+  border: none;
+}
+
+@media (max-width: 767px) {
+  .testimonial-box,
+  .service-box {
+    margin-bottom: 20px;
+  }
+}
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+.section-title {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  border-bottom: 2px solid #ffcc00;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+.sub-text {
+  color: #999;
+  font-size: 1rem;
+}
+.location-card,
+.contact-card,
+.faq-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+}
+.map-placeholder {
+  background-color: #333;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.contact-item i {
+  color: #ffcc00;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+.btn-yellow {
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 20px;
+}
+.btn-yellow:hover {
+  background-color: #e6b800;
+}
+.btn-dark-custom {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+.btn-dark-custom:hover {
+  background-color: #444;
+}
+.faq-nav .nav-link {
+  color: #fff;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.faq-nav .nav-link.active {
+  background-color: #ffcc00;
+  color: #000;
+}
+.faq-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+  cursor: pointer;
+}
+.faq-answer {
+  display: none;
+  padding-top: 10px;
+  color: #ccc;
+}
+.faq-item.active .faq-answer {
+  display: block;
+}
+.search-bar {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  color: #fff;
+}
+.search-bar::placeholder {
+  color: #999;
+}
+@media (max-width: 768px) {
+  .location-card,
+  .contact-card {
+    margin-bottom: 20px;
+  }
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+.section-heading {
+  text-align: center;
+  padding: 50px 0;
+}
+.section-heading h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.section-heading h1 span {
+  color: #f5c518;
+  font-size: 1.2rem;
+  display: block;
+}
+.section-heading p {
+  color: #999;
+  font-size: 1.1rem;
+}
+.gallery-img {
+  border-radius: 15px;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.barber-card {
+  background-color: #2a2a2a;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.barber-card img {
+  border-radius: 15px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.barber-card h3 {
+  color: #f5c518;
+  margin-top: 15px;
+}
+.barber-card p {
+  color: #999;
+}
+.social-icons a {
+  color: #f5c518;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .section-heading h1 {
+    font-size: 2rem;
+  }
+  .gallery-img {
+    height: 200px;
+  }
+  .barber-card img {
+    height: 150px;
+  }
+}
+
+.contact-section {
+  padding: 50px 0;
+}
+.contact-info {
+  background-color: #2a2a2a;
+  border-radius: 15px;
+  padding: 30px;
+  height: 100%;
+}
+.contact-info h5 {
+  color: #f5c518;
+  margin-bottom: 15px;
+}
+.contact-info p {
+  color: #999;
+  margin-bottom: 20px;
+}
+.contact-info .icon {
+  color: #f5c518;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+.booking-form {
+  background-color: #2a2a2a;
+  border-radius: 15px;
+  padding: 30px;
+}
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  background-color: #1a1a1a;
+  border: 1px solid #999;
+  color: #fff;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.booking-form textarea {
+  height: 100px;
+}
+.booking-form button {
+  background-color: #f5c518;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+.cta-section {
+  background-color: #f5c518;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+.cta-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.cta-section p {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+.cta-section .btn-book {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.cta-section .btn-services {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+@media (max-width: 768px) {
+  .cta-section h1 {
+    font-size: 1.8rem;
+  }
+  .cta-section .btn-book,
+  .cta-section .btn-services {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+img.hover-scale {
+  transition: transform 0.3s ease;
+}
+
+img.hover-scale:hover {
+  transform: scale(1.05); /* Scales image to 105% */
+}
+
+.herobookdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.herobookdiv a {
+  width: 100%;
+}
+
+.zoom-container {
+  overflow: hidden; /* hides the overflow during zoom */
+  display: inline-block;
+}
+
+.zoom-image {
+  transition: transform 0.4s ease; /* smooth animation */
+}
+
+.zoom-container:hover .zoom-image {
+  transform: scale(1.1); /* zooms 10% */
+}
+.hover-text-right p {
+  transition: transform 0.3s ease;
+}
+
+.hover-text-right:hover p {
+  transform: translateX(5px); /* move slightly right */
+}
+
+#services ul {
+  list-style: disc;
+}
+
+/* card hover  */
+.service-card {
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding-top: 20px; /* Make space for the border on top */
+}
+
+.service-card::before {
+  content: "";
+  position: absolute;
+  top: -5px; /* Position the border above the card */
+  left: 5%;
+  width: 90%; /* Set the initial width of the border */
+  height: 4px; /* Border height */
+  background: linear-gradient(
+    to right,
+    #ffc107 0%,
+    transparent 100%
+  ); /* Gradient to create decreasing effect */
+  transform: scaleX(0); /* Initially hide the border */
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px); /* Lift the card on hover */
+}
+
+.service-card:hover::before {
+  transform: scaleX(1); /* Show the border on hover */
+}
+
+.service-card:hover h5 {
+  color: #ffc107 !important; /* Change heading color on hover */
+}
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+#PMCBarbershop {
+  padding: 50px 0;
+  text-align: center;
+}
+#PMCBarbershop h2 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+#PMCBarbershop h2 span {
+  color: #f5c518;
+}
+#PMCBarbershop p.lead {
+  color: #ccc;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+.PMCBarbershopclass {
+  background-color: #2a2a2a;
+  /* border-left: 4px solid #f5c518; */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+  position: relative; /* Added for absolute positioning of the icon */
+  text-align: left; /* Align text to the left */
+}
+
+.PMCBarbershopclass .icon {
+  background-color: #3a3a3a;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  position: absolute; /* Position the icon absolutely */
+  top: 20px; /* Distance from the top */
+  left: 20px; /* Distance from the left */
+}
+.PMCBarbershopclass h4 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  margin-top: 50px; /* Add space below the icon */
+}
+.PMCBarbershopclass p {
+  color: #ccc;
+  font-size: 1rem;
+}
+
+.PMCBarbershopclass {
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+  position: relative;
+  text-align: left;
+  overflow: hidden; /* Needed for top bar containment */
+}
+
+/* Animated Top Border (replaces left border on hover) */
+.PMCBarbershopclass::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 0%;
+  height: 4px;
+  background: linear-gradient(to right, #f5c518 90%, transparent);
+  transition: width 0.4s ease;
+  z-index: 1;
+}
+
+/* Hide left border initially */
+.PMCBarbershopclass::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background-color: #f5c518;
+  transition: opacity 0.4s ease;
+}
+
+/* On hover: show top bar, fade out left border */
+.PMCBarbershopclass:hover {
+  transform: translateY(-10px);
+}
+.PMCBarbershopclass:hover::before {
+  width: 90%;
+}
+.PMCBarbershopclass:hover::after {
+  opacity: 0;
+}
+
+/* Change the icon color on hover */
+.PMCBarbershopclass:hover .icon {
+  background-color: #f5c518; /* Change icon background color */
+  color: #2a2a2a; /* Change icon text color */
+}
+.boxpadding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.boxpadding footer {
+  border-top: 1px solid wheat;
+}
+
+.testimonial-box2 {
+  transition: transform 0.3s ease, border 0.3s ease;
+  border: 1px solid transparent;
+  background-color: #2a2a2a; /* Optional: match dark theme */
+  color: #fff;
+}
+
+.testimonial-box2:hover {
+  transform: translateY(-8px);
+  border: 2px solid #f5c518 !important; /* Yellow border on hover */
+}
+
+.testimonial-box2 footer {
+  margin-top: 15px;
+}
+
+.star-rating span {
+  font-size: 1.2rem;
+}
+#testimonials h6 {
+  text-align: center;
+}
+
+.testimonial-box2 p {
+  padding: 10px;
+}
+
+.testimonial-box2 footer {
+  padding: 10px;
+}
+
+/* service card section */
+
+.pricing-section {
+  padding: 50px 0;
+}
+
+.service-prices {
+  background-color: #2a2a2a;
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s ease, border 0.3s ease;
+  position: relative;
+  margin-bottom: 20px;
+  text-align: left; /* Left-align all cards */
+}
+
+.service-prices:hover:not(.fixed-border) {
+  transform: scale(1.05);
+  border: 2px solid #ffc107;
+}
+
+.fixed-border {
+  border: 2px solid #ffc107 !important;
+}
+
+.most-popular {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffc107;
+  color: black;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffc107;
+}
+
+.card-price span {
+  font-size: 1rem;
+  color: white;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Ensure list items are left-aligned */
+}
+
+.list-group-item::before {
+  content: "✔";
+  color: #ffc107;
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.btn-book {
+  background-color: #ffc107;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 10px 0;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.btn-inquire {
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+  padding: 10px 0;
+  width: 100%;
+  border-radius: 25px;
+}
+
+@media (max-width: 768px) {
+  .service-prices {
+    margin-bottom: 30px;
+  }
+}
+
+.btn-book2 {
+  background-color: white;
+  color: #eec706;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* barber card */
+
+.barber-card {
+  background-color: #2a2a2a;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.barber-card:hover {
+  transform: translateY(-10px);
+  border: 2px solid #deae34;
+}
+
+.barber-card img {
+  /* width: 100%; */
+  /* height: auto; */
+  transition: transform 0.3s ease;
+  border-radius: 12px;
+}
+
+.barber-card:hover img {
+  transform: scale(1.05);
+}
+
+.social-icons a {
+  margin: 0 8px;
+  color: #ffc107;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: white;
+}
+
+#backToTopBtn {
+  display: none;
+  transition: display 0.3s ease;
+}
+
+.hero {
+  height: 100vh;
+  /* background-color: #4f6d7a; */
+  color: white;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#backToTopBtn {
+  /* display: none !important; */
+  position: fixed !important;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffc107;
+  color: black;
+  padding: 15px;
+  padding-top:0px ;
+  border-radius: 50% !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) !important;
+  cursor: pointer;
+}
+
+.herobtn1{
+
+  background-color: #1A1A1A;
+  color: white;
+}
+.herobtn1:hover{
+  background-color: #ffc107;
+  color: white;
+}
+
+
+.heroalignleft{
+  align-items: flex-start;
+}
+
+
+.navbar-brand img{
+  width: 53px;
+}
+
+#navbarNav{
+  padding: 15px;
+}
+
+
+@keyframes blink {
+  0% {
+    border-bottom-color: transparent;
+  }
+  50% {
+    border-bottom-color: #ffc107; /* Yellow color */
+  }
+  100% {
+    border-bottom-color: transparent;
+  }
+}
+
+#blinkborder {
+  display: inline-block;
+  padding-bottom: -15px; /* Space between text and border */
+  border-bottom: 5px solid rgba(255, 193, 7, 0.3); /* Initial blurred yellow border */
+  /* filter: blur(2px); Initial blur effect */
+  transition: border-bottom-width 0.2s ease; /* Smooth transition on hover */
+  color: #ffc107;;
+}
+
+#blinkborder:hover {
+  filter: blur(0px); /* Remove the blur on hover */
+  animation: blink 0.5s infinite; /* Make the border blink when hovered */
+}
+
+#about h2{
+
+  color: white;
+}
+
+
+.testimonials{
+  display: flex;
+  flex-direction: column;
+}
+
+.hoveryellow {
+  position: relative;
+  display: inline-block;
+  color: white;
+  margin-bottom: 20px !important;
+}
+
+.hoveryellow::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20%;
+  height: 3px;
+  background-color: #ffc107;
+  transition: width 0.4s ease;
+  border-radius: 2px;
+}
+
+/* On hover: grow underline from center to full width */
+.hoveryellow:hover::after {
+  width: 100%;
+}
+
+.testimonial-box2 p{
+  font-style: italic;
+  font-weight: bolder;
+  line-height: 27px;
+  padding: 15px;
+  /* min-height: 10vh !important; */
+}
+
+/* ga;;ary hover */
+
+.gallery-img {
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+  border: 2px solid #ffc107; /* Yellow border */
+}
+
+
+/* location */
+.location-card,
+.contact-card {
+  background: #1f1f1f;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.location-card:hover,
+.contact-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(255, 193, 7, 0.2); /* subtle yellow shadow */
+}
+/* faq hover */
+
+.faq-item span {
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.faq-item:hover span {
+  color: #ffc107; /* Bootstrap's yellow */
+}
+/* contact */
+
+.contact-info,
+.booking-form {
+  transition: transform 0.3s ease, border 0.3s ease;
+  border: 2px solid transparent;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.contact-info:hover,
+.booking-form:hover {
+  transform: translateY(-5px);
+  border: 2px solid #ffc107; /* Yellow */
+}
