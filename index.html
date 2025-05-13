@@ -4,63 +4,99 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>PMC Barbershop</title>
-  <link rel="stylesheet" href="style.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar">
-    <div class="navbar-brand">
-      <img src="img/logo.webp" alt="PMC Logo" />
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.webp" alt="PMC Logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
 
   <!-- Hero Section -->
-  <section class="hero">
+  <section class="hero py-5 bg-light">
     <div class="container">
-      <div class="heroalignleft">
-        <h1>Welcome to PMC Barbershop</h1>
-        <h2>Your style, our passion</h2>
-        <p>Book your appointment today with our award-winning team.</p>
-        <a href="#contact" class="btn-yellow">Book Now</a>
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
+          <h1 class="display-5 fw-bold">Welcome to PMC Barbershop</h1>
+          <h2 class="h4 text-muted">Your style, our passion</h2>
+          <p class="lead">Book your appointment today with our award-winning team.</p>
+          <a href="#contact" class="btn btn-warning btn-lg mt-3">Book Now</a>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="img/hero (1).webp" alt="Hero Image" class="img-fluid rounded">
+        </div>
       </div>
-      <img src="img/hero (1).webp" alt="Hero Image" style="width: 100%; max-width: 600px; margin-top: 20px;" />
     </div>
   </section>
 
   <!-- Gallery Section -->
-  <section class="section-heading">
+  <section id="gallery" class="section-heading py-5">
+  <div class="container">
     <h1>Our Work <span>Gallery</span></h1>
-    <div class="gallery">
-      <img src="img/gallery1.webp" alt="Haircut 1" class="gallery-img" />
-      <img src="img/gall2.webp" alt="Haircut 2" class="gallery-img" />
-      <img src="img/gallery3.webp" alt="Haircut 3" class="gallery-img" />
+    <div class="row gallery d-flex justify-content-around"> 
+      <div class="col-md-3">
+        <img src="img/gallery1.webp" alt="Haircut 1" class="gallery-img img-fluid" />
+      </div>
+      <div class="col-md-3">
+        <img src="img/gall2.webp" alt="Haircut 2" class="gallery-img img-fluid" />
+      </div>
+      <div class="col-md-3">
+        <img src="img/gallery3.webp" alt="Haircut 3" class="gallery-img img-fluid" />
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Team Section -->
-  <section class="section-heading">
-    <div class="barber-card">
-      <h3>Our Talented Team</h3>
-      <p>Professional, passionate, and precise. Get to know our skilled barbers.</p>
+  <section id="team" class="section-heading py-5 bg-light">
+    <div class="container">
+      <div class="barber-card">
+        <h3 class="fw-bold">Our Talented Team</h3>
+        <p>Professional, passionate, and precise. Get to know our skilled barbers.</p>
+      </div>
+      <div class="text-center">
+        <img src="img/hero (1).webp" alt="Team Image" class="img-fluid rounded" />
+      </div>
     </div>
-    <img src="img/hero (1).webp" alt="Team Image" style="width: 100%; border-radius: 15px;" />
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="contact-section">
-    <div class="contact-info">
-      <h5>Contact Us</h5>
-      <p><span class="icon">📍</span>123 Barber Lane, YourCity</p>
-      <p><span class="icon">📞</span> (123) 456-7890</p>
-      <p><span class="icon">📧</span> info@pmcbarbershop.com</p>
+  <section id="contact" class="contact-section bg-dark text-white">
+    <div class="container">
+      <div class="contact-info">
+        <h5 class="mb-4">Contact Us</h5>
+        <p><span class="icon">📍</span> 123 Barber Lane, YourCity</p>
+        <p><span class="icon">📞</span> (123) 456-7890</p>
+        <p><span class="icon">📧</span> info@pmcbarbershop.com</p>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer style="text-align: center; margin-top: 40px;">
+  <footer class="text-center mt-4">
     <p>&copy; 2025 PMC Barbershop. All rights reserved.</p>
   </footer>
 
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
